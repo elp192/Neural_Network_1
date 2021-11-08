@@ -33,7 +33,7 @@ The summary of the model is demonstrated in Figure 1.
     - The neurons of layers 1 and 2 are increased to 150 and 60, respectively.<br>
     - The third layer is added to check whether the performance is improved or not. As improvement was not observed in the performance, this additional layer is removed. <br>
     - The number of epochs is increased to 500.<br> 
- - In the optimized version, the accuracy is improved to 76.24%, as is shown in Figure 2. 
+ - In the optimized version of code, the accuracy is improved to 76.22%, as is shown in Figure 2. 
   
 <p img align="center" width="100%">
 <img width="675" alt="Screen Shot 2021-11-07 at 10 21 33 PM" src="https://user-images.githubusercontent.com/85843401/140679320-0deba6db-23d5-4abb-b788-599d857fb9c1.png">
@@ -41,6 +41,7 @@ The summary of the model is demonstrated in Figure 1.
 <p align="center">
   
 ## Summary
-
+The accuracy of 76.22% is obtained from the deep learning model with two hidden layers and 150 and 60 neurons for the first and second layers, respectively. Although this accuracy is not high enough, it satisfies what was targeted.<br>
+It is worth comparing the accuracy of other supervised machine learning methods with this deep learning model. Random forest classifier is an example which less prone to overfitting.
 <br>
 
