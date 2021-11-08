@@ -8,6 +8,9 @@ Tools that are used in this project are as follows:<br>
 
 ## Results
 ### Data Preprocessing
+- In our dataset, the binary variables in the "Is Successful" column are considered the target variables. The 1 and 0 values determine whether the funded money is utilized effectively or not.<br>
+- The columns that do not impact the result are removed. These variables do not influence the model's accuracy. Initially, input data (i.e., "EIN" and "NAME") were removed. However, in the optimized version, it is revealed "NAME" column has an impact on accuracy and is considered as a feature.<br>
+- The "NAME, "APPLICATION_TYPE", "CLASSIFICATION", "AFFILIATION", "USE_CASE", "STATUS", "ORGANIZATION", "INCOME_AMT", "SPECIAL_CONSIDERATIONS", "ASK_AMT" columns are considered as input data (features).<br>
 
 <br>
 
